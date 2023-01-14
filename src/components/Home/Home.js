@@ -33,7 +33,7 @@ function Home() {
 
               <h2 className="main-name"> Uma infraestrutura exclusiva para atender você de forma rápida, segura e com o melhor custo benefício.</h2>
                
-              <Button className='buttonOnline' href="#"><AiOutlineSchedule/>Link</Button>
+              <a class="btn btn-primary" href="www.globo.com" role="button">Link</a>
               
 
               

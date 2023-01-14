@@ -91,7 +91,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-            <Button className="mt-1" variant="secondary"><FaWhatsapp/> Agende Sua Consulta</Button>{' '}
+            <Button to="www.globo.com" className="mt-1" variant="secondary"><FaWhatsapp/> Agende Sua Consulta</Button>{' '}
             </Nav.Item>
            
           </Nav>
