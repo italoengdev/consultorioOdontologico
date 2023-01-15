@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import homeLogo from '../../Assets/home2.png'
-import Home2 from './Home2'
+import Carrousel from './Carrousel'
 import Type from './Type'
 import Button from 'react-bootstrap/Button';
 import {AiOutlineSchedule} from 'react-icons/ai'
@@ -12,11 +12,11 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={8} className="home-header">
+            <Col md={7} className="home-header">
               <div className="heading">
-                <h3 className="d-inline text-dark">Dr.</h3>
-                <h3 className="d-inline">Gustavo</h3>{' '}
-                <h3 className="d-inline text-dark">Pinheiro Clínica Odontológica</h3>
+                <h4 className="d-inline text-dark">Dr.</h4>
+                <h4 className="d-inline">Gustavo</h4>{' '}
+                <h4 className="d-inline text-dark">Pinheiro Clínica Odontológica</h4>
               </div>
               <Row>
                 <Col md={6}>
@@ -25,7 +25,7 @@ function Home() {
                   </h1>
                 </Col>
                 <Col md={6}>
-                  <div style={{ paddingLeft: 20, textAlign: 'left',paddingTop:10 }}>
+                  <div style={{ paddingLeft: 20, textAlign: 'left',paddingTop:20 }}>
                     <Type />
                   </div>
                 </Col>
@@ -33,13 +33,13 @@ function Home() {
 
               <h2 className="main-name"> Uma infraestrutura exclusiva para atender você de forma rápida, segura e com o melhor custo benefício.</h2>
                
-              <a class="btn btn-primary" href="www.globo.com" role="button">Link</a>
+              <Button className='m-3' variant="secondary" href="www.globo.com"><AiOutlineSchedule className='mb-1'/>  Agende sua Consulta Online</Button>
               
 
               
             </Col>
             <Col
-              md={4}
+              md={5}
               
               className="d-flex align-self-center justify-content-center"
             >
@@ -52,7 +52,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <Carrousel />
     </section>
   )
 }
