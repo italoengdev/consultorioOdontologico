@@ -1,11 +1,10 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col,Button } from 'react-bootstrap'
 import Card from './Card'
-import Contact from '../Contact/Contact'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import revit from "../../Assets/rupture.jpg"
+import demo from "../../Assets/demo.png"
 
 const responsive = {
   superLargeDesktop: {
@@ -30,28 +29,28 @@ const responsive = {
 function Carrousel() {
   return (
     <section>
-      <Container fluid>
+      <Container className='background1' fluid>
         <Container>
-          <Col md={12} className="d-flex justify-content-center mr-5">
+          <Col md={12} className="d-flex justify-content-center mr-5 pt-5">
             <h3 className=" heading1">Nossas</h3>
           </Col>
 
           <h1 className="d-flex justify-content-center mr-5">Especialidades</h1>
           <Carousel className='mx-5 mt-4' responsive={responsive}>
             <div>
-              <Card img={revit} title=" Facetas/Lentes de Contato" button="Clique para Saber mais"/>
+              <Card img={demo} title=" Facetas/Lentes de Contato" button="Clique para Saber mais"/>
             </div>
-            <div><Card img={revit} title="Tratamento Periodental" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Implante Dentário" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Ortodontia (aparelho)" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Prótese" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Endodontia (canal)" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Harmonização Orofacial (botox/preenchimento)" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Bucomaxilofacial" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Clínico Geral" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Tratamento Periodental" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Implante Dentário" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Ortodontia (aparelho)" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Prótese" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Endodontia (canal)" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Harmonização Orofacial" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Bucomaxilofacial" button="Clique para Saber mais"/></div>
+            <div><Card img={demo} title="Clínico Geral" button="Clique para Saber mais"/></div>
           </Carousel>
           <Row>
-            <Contact />
+          <Button className='w-25 mx-auto my-4' variant="secondary">Ver todas</Button>{' '}
           </Row>
         </Container>
       </Container>

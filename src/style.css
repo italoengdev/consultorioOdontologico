@@ -262,6 +262,10 @@ button:focus {
   padding-bottom: 5px;
 }
 
+.background1{
+  background-image: linear-gradient(to left, #c7ced2, #d7c0c8);
+}
+
 .home-about-social {
   text-align: center !important;
   padding: 170px 0;

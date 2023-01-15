@@ -52,7 +52,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Carrousel />
+      <Carrousel/>
     </section>
   )
 }
