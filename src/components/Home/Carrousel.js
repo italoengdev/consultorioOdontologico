@@ -37,16 +37,16 @@ function Carrousel() {
           </Col>
 
           <h1 className="d-flex justify-content-center mr-5">Especialidades</h1>
-          <Carousel className='mx-4' responsive={responsive}>
+          <Carousel className='mx-5 mt-4' responsive={responsive}>
             <div>
               <Card img={revit} title=" Facetas/Lentes de Contato" button="Clique para Saber mais"/>
             </div>
             <div><Card img={revit} title="Tratamento Periodental" button="Clique para Saber mais"/></div>
             <div><Card img={revit} title="Implante Dentário" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Ortodontia(aparelho)" button="Clique para Saber mais"/></div>
+            <div><Card img={revit} title="Ortodontia (aparelho)" button="Clique para Saber mais"/></div>
             <div><Card img={revit} title="Prótese" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Endodontia(canal)" button="Clique para Saber mais"/></div>
-            <div><Card img={revit} title="Harmonização Orofacial(botox/preenchimento)" button="Clique para Saber mais"/></div>
+            <div><Card img={revit} title="Endodontia (canal)" button="Clique para Saber mais"/></div>
+            <div><Card img={revit} title="Harmonização Orofacial (botox/preenchimento)" button="Clique para Saber mais"/></div>
             <div><Card img={revit} title="Bucomaxilofacial" button="Clique para Saber mais"/></div>
             <div><Card img={revit} title="Clínico Geral" button="Clique para Saber mais"/></div>
           </Carousel>

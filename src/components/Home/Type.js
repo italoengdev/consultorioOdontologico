@@ -6,10 +6,14 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Facetas",
-          "Lentes",
-          "Implantes",
+          "Facetas/Lentes de Contato",
+          "Implante Dentário",
           "Ortodontia",
+          "Prótese",
+          "Endodontia",
+          "Harmonização Orofacial",
+          "Bucomaxilofacial",
+          "Clínico Geral",
         ],
         autoStart: true,
         loop: true,
