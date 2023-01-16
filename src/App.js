@@ -24,10 +24,10 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/quemsomos" element={<Projects />} />
+          <Route path="/especialidades" element={<About />} />
+          <Route path="/nossaequipe" element={<Resume />} />
+          <Route path="/contato" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>

@@ -266,6 +266,12 @@ button:focus {
   background-image: linear-gradient(to left, #c7ced2, #d7c0c8);
 }
 
+@media only screen and (min-width: 767px) {
+    .carousel-desk {
+      margin-left: 40px !important;
+    }
+  }
+
 .home-about-social {
   text-align: center !important;
   padding: 170px 0;

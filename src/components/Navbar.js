@@ -53,7 +53,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/especialidades"
                 onClick={() => updateExpanded(false)}
               >
                 Especialidades
@@ -63,7 +63,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/quemsomos"
                 onClick={() => updateExpanded(false)}
               >
                 Quem Somos
@@ -75,7 +75,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/nossaequipe"
                 onClick={() => updateExpanded(false)}
               >
                  Nossa Equipe
@@ -84,7 +84,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
+                to="/contato"
                 onClick={() => updateExpanded(false)}
               >
                  Contato

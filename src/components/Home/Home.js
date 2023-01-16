@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import homeLogo from '../../Assets/home2.png'
 import Carrousel from './Carrousel'
+import About from './About'
 import Type from './Type'
 import Button from 'react-bootstrap/Button';
 import {AiOutlineSchedule} from 'react-icons/ai'
@@ -53,6 +54,7 @@ function Home() {
         </Container>
       </Container>
       <Carrousel/>
+      <About/>
     </section>
   )
 }

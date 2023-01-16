@@ -1,4 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
+/* https://reactjsexample.com/a-lightweight-production-ready-carousel-for-react/ */
+
 import React from 'react'
 import { Container, Row, Col,Button } from 'react-bootstrap'
 import Card from './Card'
@@ -17,11 +19,11 @@ const responsive = {
     items: 3
   },
   tablet: {
-    breakpoint: { max: 1024, min: 464 },
+    breakpoint: { max: 1024, min: 750 },
     items: 2
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 749, min: 0 },
     items: 1
   }
 }
@@ -36,7 +38,8 @@ function Carrousel() {
           </Col>
 
           <h1 className="d-flex justify-content-center mr-5">Especialidades</h1>
-          <Carousel className='mx-5 mt-4' responsive={responsive}>
+          <Carousel infinite={true} 
+  autoPlaySpeed={1000} className='mx-5 mt-4' responsive={responsive}>
             <div>
               <Card img={demo} title=" Facetas/Lentes de Contato" button="Clique para Saber mais"/>
             </div>
