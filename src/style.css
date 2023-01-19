@@ -266,6 +266,10 @@ button:focus {
   background-image: linear-gradient(to left, #c7ced2, #d7c0c8);
 }
 
+.background1{
+  background-image: linear-gradient(to left, #d7c0c8,#534f4c);
+}
+
 @media only screen and (min-width: 767px) {
     .carousel-desk {
       margin-left: 40px !important;
