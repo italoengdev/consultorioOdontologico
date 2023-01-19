@@ -46,9 +46,7 @@ function aboutHome() {
               <img
                 src={gustavo}
                 alt="home pic"
-                style={{
-                  
-                }}
+                style={{}}
                 className="thumbnail rounded mx-auto mt-4 h-75"
               />
             </Col>

@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import homeLogo from '../../Assets/home2.png'
-import Carrousel from './Carrousel'
+import Especialidades from './Especialidades'
+import Equipe from './Equipe'
+import Schedule from './Schedule'
 import About from './About'
 import Type from './Type'
 import Button from 'react-bootstrap/Button';
@@ -53,8 +55,10 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Carrousel/>
+      <Especialidades/>
       <About/>
+      <Schedule/>
+      <Equipe/>
     </section>
   )
 }

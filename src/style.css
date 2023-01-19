@@ -263,12 +263,20 @@ button:focus {
 }
 
 .background1{
-  background-image: linear-gradient(to left, #c7ced2, #d7c0c8);
+  background-image: linear-gradient(to right, #c7ced2, #d7c0c8);
 }
 
-.background1{
-  background-image: linear-gradient(to left, #d7c0c8,#534f4c);
+.background2{
+  background-image: linear-gradient(to right, #d7c0c8,#534f4c);
 }
+.background3{
+  background-image: linear-gradient(to left, #d7c0c8,#c7ced2);
+}
+
+.cardMargin{
+  margin-top: 15rem;
+}
+
 
 @media only screen and (min-width: 767px) {
     .carousel-desk {
